@@ -218,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-local datasets and secrets
+/data/
+*.db
+*.sqlite
+*.sqlite3
+*.duckdb
+*.duckdb.wal
+.env.*
+!.env.example
